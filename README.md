@@ -15,5 +15,4 @@ Computer Engineering student at **Unicamp**, interested in applied AI, machine l
 `Docker` · `FastAPI` · `Pandas` · `PyTorch` · `Streamlit` · `scikit-learn`
 
 <sub>Updated 2026-10-29 UTC · Refreshes daily · <a href="https://github.com/tiagoperrupato/tiagoperrupato/actions/workflows/dashboard.yml">Update status ↗</a></sub>
-
 <!-- DASHBOARD:END -->
