@@ -16,23 +16,4 @@ Computer Engineering student at **Unicamp**, interested in applied AI, machine l
 
 <sub>Updated 2026-10-29 UTC · Refreshes daily · <a href="https://github.com/tiagoperrupato/tiagoperrupato/actions/workflows/dashboard.yml">Update status ↗</a></sub>
 
-<details>
-<summary>About these numbers</summary>
-
-Activity counts public contributions recognized by GitHub over the last 12 months, including work in other people's repositories. The total includes commits, pull requests, issues, reviews and repository creation. The small chart shows commits over the last 30 days.
-
-Languages are measured by GitHub's code size totals across my public, non-fork code repositories and selected team projects. Notebook files, markup, styles and documentation are excluded, along with the profile and website repositories. These are repository-level statistics, not a measure of proficiency or my individual authorship. Tools are detected in dependency and container files; no project code is executed.
-
-- [AndreiQP/hackathon-unicamp-2026](https://github.com/AndreiQP/hackathon-unicamp-2026)
-- [AndreiQP/mc906-kaggle-retinopathy](https://github.com/AndreiQP/mc906-kaggle-retinopathy)
-- [FastFoodly/FastFoodly](https://github.com/FastFoodly/FastFoodly)
-- [tiagoperrupato/desafio-agentes](https://github.com/tiagoperrupato/desafio-agentes)
-- [tiagoperrupato/enormossauroRebaixadokk](https://github.com/tiagoperrupato/enormossauroRebaixadokk)
-- [tiagoperrupato/gridworld-rl](https://github.com/tiagoperrupato/gridworld-rl)
-- [tiagoperrupato/jewelCollector](https://github.com/tiagoperrupato/jewelCollector)
-- [tiagoperrupato/mc906-project-brazilian-checkers](https://github.com/tiagoperrupato/mc906-project-brazilian-checkers)
-- [tiagoperrupato/seminario-btrfs](https://github.com/tiagoperrupato/seminario-btrfs)
-- [tiagoperrupato/synthetic-image-detection](https://github.com/tiagoperrupato/synthetic-image-detection)
-
-</details>
 <!-- DASHBOARD:END -->

@@ -178,11 +178,7 @@ def render(counts, daily, languages, colors, technologies, evidence, repos):
         " ".join(pictures),
         "**Tools found in public projects**<br>\n" + " · ".join(f"`{t}`" for t in technologies),
         f'<sub>Updated {today.isoformat()} UTC · Refreshes daily · <a href="https://github.com/{OWNER}/{OWNER}/actions/workflows/dashboard.yml">Update status ↗</a></sub>',
-        "<details>\n<summary>About these numbers</summary>\n\n"
-        "Activity counts public contributions recognized by GitHub over the last 12 months, including work in other people's repositories. The total includes commits, pull requests, issues, reviews and repository creation. The small chart shows commits over the last 30 days.\n\n"
-        "Languages are measured by GitHub's code size totals across my public, non-fork code repositories and selected team projects. Notebook files, markup, styles and documentation are excluded, along with the profile and website repositories. These are repository-level statistics, not a measure of proficiency or my individual authorship. Tools are detected in dependency and container files; no project code is executed.\n\n"
-        + "\n".join(f'- [{r}](https://github.com/{r})' for r in repos)
-        + "\n\n</details>",
+
     ])
     readme = ROOT / "README.md"
     content = readme.read_text()
