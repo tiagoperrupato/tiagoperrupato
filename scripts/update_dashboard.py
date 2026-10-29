@@ -173,10 +173,10 @@ def render(counts, daily, languages, colors, technologies, evidence, repos):
     pictures = []
     for card, alt in [("activity", "Public contributions, commits, pull requests and reviews over the last 12 months"),
                       ("languages", "Languages by code size across public repositories, including team projects")]:
-        pictures.append(f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/{card}-dark.svg"><img src="assets/dashboard/{card}-light.svg" alt="{alt}" width="400" height="260"></picture>')
+        pictures.append(f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/{card}-dark.svg"><img src="assets/dashboard/{card}-light.svg" alt="{alt}" width="400"></picture>')
     block = "\n\n".join([
         " ".join(pictures),
-        "**Tools found in public projects**  \n" + " · ".join(f"`{t}`" for t in technologies),
+        "**Tools found in public projects**<br>\n" + " · ".join(f"`{t}`" for t in technologies),
         f'<sub>Updated {today.isoformat()} UTC · Refreshes daily · <a href="https://github.com/{OWNER}/{OWNER}/actions/workflows/dashboard.yml">Update status ↗</a></sub>',
         "<details>\n<summary>About these numbers</summary>\n\n"
         "Activity counts public contributions recognized by GitHub over the last 12 months, including work in other people's repositories. The total includes commits, pull requests, issues, reviews and repository creation. The small chart shows commits over the last 30 days.\n\n"
