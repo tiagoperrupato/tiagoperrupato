@@ -1,4 +1,4 @@
-## Tiago Perrupato
+## Tiago Perrupato Antunes
 
 Computer Engineering student at **Unicamp**, interested in applied AI, machine learning and software development.
 
