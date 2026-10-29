@@ -1,0 +1,38 @@
+name: Refresh profile dashboard
+
+on:
+  schedule:
+    - cron: '23 8 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_dashboard.py
+      - .github/workflows/dashboard.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a
+      - name: Fetch public data and generate dashboard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_dashboard.py
+      - name: Commit updated dashboard
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/dashboard
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public profile dashboard'
+            git push
+          fi
