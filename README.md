@@ -14,5 +14,5 @@ Computer Engineering student at **Unicamp**, interested in applied AI, machine l
 **Tools found in public projects**<br>
 `Docker` · `FastAPI` · `Pandas` · `PyTorch` · `Streamlit` · `scikit-learn`
 
-<sub>Updated 2026-10-30 UTC · Refreshes daily · <a href="https://github.com/tiagoperrupato/tiagoperrupato/actions/workflows/dashboard.yml">Update status ↗</a></sub>
+<sub>Updated 2026-10-31 UTC · Refreshes daily · <a href="https://github.com/tiagoperrupato/tiagoperrupato/actions/workflows/dashboard.yml">Update status ↗</a></sub>
 <!-- DASHBOARD:END -->
